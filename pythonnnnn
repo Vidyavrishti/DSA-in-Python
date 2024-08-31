@@ -1,0 +1,117 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "2e4952da-374f-4a81-a6ad-e228ec074557",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "class stack:\n",
+    "    def__init__(self):\n",
+    "        self.stack=[]\n",
+    "    def push(self,item):\n",
+    "        self.stack.append(item)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 2,
+   "id": "e9cfc4a1-15e6-4662-b948-e9dc4dd61c1e",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'H'"
+      ]
+     },
+     "execution_count": 2,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "a=\"HAPPY\"\n",
+    "a[0]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 3,
+   "id": "6b9662bb-9f65-496b-b76b-6f203ac801ae",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "happyme\n"
+     ]
+    }
+   ],
+   "source": [
+    "a=\"happy\"\n",
+    "b=\"me\"\n",
+    "print(a+b)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 6,
+   "id": "541d3034-1e64-468b-8f46-49101a461819",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "class stack:\n",
+    "    def __init__(self):\n",
+    "        self.stack=[]\n",
+    "        for i in range(0,len()):\n",
+    "            stack.append(a[i])\n",
+    "            rev=''\n",
+    "        while(len(stack)!=0):\n",
+    "            el=stack.pop()\n",
+    "            rev=rev+el"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 7,
+   "id": "f5c3fe8b-04bc-4dc8-b1fa-f90363e5b3bd",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "a=[]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "4630d66f-9f14-45ac-a7e0-d5c8b33b6fb7",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.11.7"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}

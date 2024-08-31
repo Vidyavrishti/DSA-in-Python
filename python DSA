@@ -1,0 +1,147 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "id": "50074087-a41b-4698-b2af-a667fc4030e8",
+   "metadata": {},
+   "source": [
+    "NODE CREATION"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 24,
+   "id": "dba9818c-287a-47f3-8008-7187e2777bf6",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "class Node:\n",
+    "    def __init__(self,data):\n",
+    "        self.data = None\n",
+    "        self.next = None"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 12,
+   "id": "c75aaf0f-f805-4868-a5f0-a02b4dafec0f",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "class Linkedlist:\n",
+    "    def __init__ (self): #called everytime an object is created for this class\n",
+    "        self.head = None"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "11c6a0e3-3706-40b7-917c-8a522508972e",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "def insert_beg(self,data):\n",
+    "    new_node = Node(data)\n",
+    "    new_node.next = self.head #next node of new node  is current head\n",
+    "    self.head = new_node #head is assigned as a new node"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 27,
+   "id": "3a5a99c2-f4b9-4e01-99f8-cc33a64ebb5e",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "  def insertend(self,data):\n",
+    "      nd1 = Node(data)\n",
+    "      if self.head == None:\n",
+    "         self.head = nd1\n",
+    "         return\n",
+    "      current = self.head\n",
+    "      while current.next:\n",
+    "          current = current.next #last_node\n",
+    "      current.next = nd1"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "a4763a78-3f42-44a4-a2c8-a1da748a11ec",
+   "metadata": {},
+   "source": [
+    "create a class names 'Mylinkedlist' which can initialize and insert nodes at the begining"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 28,
+   "id": "7666fe74-dacd-4260-95c6-9b5f8bd4dcbd",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "class Mylinkedlist:\n",
+    "    class mynode:\n",
+    "        def __init(self,data):\n",
+    "            self.data = None\n",
+    "            self.next = None\n",
+    "            \n",
+    "    def __init__ (self):\n",
+    "        self.head = None\n",
+    "    def insertbe(self,data):\n",
+    "        new_node = Node(data)\n",
+    "        new_node.next = self.head\n",
+    "        self.head = new_node\n",
+    "    def inserted(self,data):\n",
+    "        nd1 = Node(data)\n",
+    "        if self.head == None:\n",
+    "            self.head = nd1\n",
+    "            return\n",
+    "            current = self.head\n",
+    "            while current.next:\n",
+    "                current = current.next\n",
+    "                current.next = nd1\n",
+    "\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 26,
+   "id": "cc7b9202-baee-45da-957d-25da119778e5",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "a=Mylinkedlist()\n",
+    "a.insertbe(20)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "b036a0d0-7ca9-4a1f-a307-fb0adb5bfdf1",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.11.7"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
